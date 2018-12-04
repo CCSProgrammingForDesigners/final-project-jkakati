@@ -1,0 +1,149 @@
+body{
+    margin:50px;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.options {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+#blue {
+    background: blue;
+    /* color: Black; */
+}
+
+#red {
+    background: red;
+    /* color: Black; */
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background: green;
+    /* color: white; */
+}
+
+#gray {
+    background: gray;
+    /* color: white; */
+}
+
+#cyan {
+    background: cyan;
+    /* color: white; */
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    text-justify: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    margin: 30px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#colorchangeD{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#colorchangeE{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#colorchangeT{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#colorchangeR{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#colorchangeO{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#colorchangeI{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#colorchangeT2{
+    /* color: white; */
+    background-color: lightgray;
+    border-color: Black;
+    border:5px;
+    font-size: 90px;
+    border-style:dashed;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
