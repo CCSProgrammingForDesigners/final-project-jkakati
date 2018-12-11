@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wall</title>
+    <link rel="stylesheet" href="./styles/Wall4.css" type="text/css" />
+    <script src="./scripts/Wall4.js" defer></script>
+</head>
+<body>
+    <div>
+        <svg viewBox="0 0 907.45 331.48">
+            <g onclick="changeColorBox('Letter_D')">
+                <path id="Letter_D" class="cls-1" d="M204.85,36.73a92,92,0,0,1,47.47,35.33,123.88,123.88,0,0,1,19.86,45,215.73,215.73,0,0,1,5.29,46.11q0,55.54-22.31,94.1-30.25,52-93.42,52H41.65V30.68H161.74Q187.65,31.07,204.85,36.73ZM98.15,79.06V260.84H151.9q41.26,0,57.53-40.63,8.9-22.29,8.9-53.1,0-42.51-13.34-65.28T151.9,79.06Z"/>
+            </g>
+            <g onclick="changeColorBox('Letter_T')">
+                <path id="Letter_T" class="cls-1" d="M508,30.68V80H424.69V309.22H366.11V80H282.4V30.68Z"/>
+            </g>
+            <g onclick="changeColorBox('Letter_W')">
+                <path id="Letter_W" class="cls-1" d="M594.57,30.68l36.77,159.51,8,44.38,8-43.47L678.85,30.68h61.41l33.1,159.48,8.47,44.41,8.6-42.68L827.56,30.68h59.26L808.46,309.22H752.73L719.1,146.33l-9.83-53.86-9.83,53.86L665.81,309.22h-54l-79-278.54Z"/>
+            </g>
+        </svg>
+
+    <h2>Click on a button below to pick a color and then click on a Letter above to change color!</h2>
+
+    <div class="options">
+        <div><button id="blue" onclick="getColor('blue')">Blue</button></div>
+        <div><button id="red" onclick="getColor('red')">Red</button></div>
+        <div><button id="yellow" onclick="getColor('yellow')">Yellow</button></div>
+        <div><button id="green" onclick="getColor('green')">Green</button></div>
+        <div><button id="gray" onclick="getColor('gray')">Gray</button></div>
+        <div><button id="cyan" onclick="getColor('cyan')">Cyan</button></div>
+    </div><br>
+
+    <div><button onclick="resetColor()">Reset</button></div>
+     
+    
+    </div>     
+</body>
+</html>

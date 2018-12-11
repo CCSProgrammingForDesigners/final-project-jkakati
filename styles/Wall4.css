@@ -1,0 +1,84 @@
+body{
+    margin:50px;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.options {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+#blue {
+    background: blue;
+    /* color: white; */
+}
+
+#red {
+    background: red;
+    /* color: white;     */
+}
+
+#yellow {
+    background-color: yellow;
+    /* color: white; */    
+}
+
+#green {
+    background: green;
+    /* color: white; */    
+}
+
+#gray {
+    background: gray;
+    /* color: white; */    
+}
+
+#cyan {
+    background: cyan;
+    /* color: white; */    
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    text-justify: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    margin: 30px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Letter_D {
+    fill:DarkGray;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+#Letter_T {
+    fill:DarkGray;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+#Letter_W {
+    fill:DarkGray;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
